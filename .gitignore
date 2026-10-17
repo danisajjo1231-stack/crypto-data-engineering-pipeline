@@ -1,0 +1,32 @@
+# Python environment
+
+.venv/
+venv/
+**pycache**/
+*.py[cod]
+
+# Secrets and environment variables
+
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+
+logs/
+*.log
+*.tmp
+
+# Python tools
+
+.pytest_cache/
+.mypy_cache/
+
+# IDE settings
+
+.vscode/
+
+# Airflow local files
+
+airflow.db
+airflow.cfg
